@@ -1,12 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head><title>DevOps live website</title></head>
-<body style="text-align:center; font-family:Arial; margin-top:100px;">
-<h1>✅ My DevOps CI/CD Project is LIVE</h1>
-<h2>Built by GitHub Actions - sindhugotte1234</h2>
-<p id="time"></p>
-<script>
-document.getElementById("time").innerHTML = "Deployed at: " + new Date();
-</script>
+<head>
+<title>DevOps Group Project</title>
+<style>
+body{font-family:Arial;text-align:center;padding-top:80px;background:#0f172a;color:white}
+h1{color:#38bdf8}
+.card{background:white;color:black;display:inline-block;padding:30px;border-radius:15px;margin-top:20px}
+</style>
+</head>
+<body>
+<h1>🚀 DevOps Real-Time CI/CD Project</h1>
+<h2>Group Project - GitHub Actions + Pages</h2>
+<div class="card">
+<p><b>CI/CD Pipeline Working Successfully ✅</b></p>
+<p>Auto Deployment Enabled</p>
+<p id="t"></p>
+</div>
+<script>document.getElementById("t").innerHTML="Deployed: "+new Date().toLocaleString()</script>
 </body>
 </html>
