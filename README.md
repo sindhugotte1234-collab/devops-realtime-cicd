@@ -1,7 +1,7 @@
 # 🚀 LiveSync - AI Tools Hub
 
 ### 🌐 Live Website
-https://sindhugotte1234-collab.github.io/livesync/
+Live Link: https://sindhugotte1234-collab.github.io/devops-realtime-cicd/
 
 ### 📌 About Project
 This is a DevOps project to show automated website deployment.
